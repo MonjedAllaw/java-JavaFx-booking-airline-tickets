@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+#name{
+	
+	-fx-font:normal normal normal 40px 'Bebas Neue';
+	-fx-fill:#11ac9c;
+
+	
+}
+#Logo{
+	-fx-background-color: #11ac9c;
+	-fx-min-width:100;
+	-fx-border-radius:250px;
+	-fx-background-radius:250px;
+
+
+}
+
+#nav{
+   
+    -fx-pref-width:2000;
+
+
+
+}
+
+
+#link_home,#link_book,#link_manage,#link_passenger{
+        -fx-font:normal normal normal 20px 'Bebas Neue';
+        -fx-fill:#11ac9c;
+}
+
+#link_home:hover,#link_book:hover,#link_manage:hover,#link_passenger:hover{
+        -fx-font:normal normal normal 20px 'Bebas Neue';
+        -fx-fill:#0e8c7b;
+        -fx-cursor: hand;
+        -fx-underline:true ; 
+}

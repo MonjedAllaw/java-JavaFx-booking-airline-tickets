@@ -1,0 +1,46 @@
+#booking{
+	
+	-fx-background-color: linear-gradient(to top,#333333 85%, rgba(255,255,255,1) 85%);
+}
+
+
+#text1{
+   
+    	-fx-font:normal normal normal 40px 'Bebas Neue';
+	-fx-fill:#11ac9c;
+
+}
+
+#text{
+   
+    	-fx-font:normal normal normal 20px 'Bebas Neue';
+	-fx-fill:#11ac9c;
+
+}
+
+#message{
+   
+    	-fx-font:normal normal normal 15px 'Bebas Neue';
+	-fx-fill:#04CFBA;
+
+}
+
+#addbtn{
+	-fx-background-color: #11ac9c; 
+	-fx-text-fill:white; 
+	-fx-font:normal bold 15px 'sans-serif';
+	-fx-background-radius:25px;
+	-fx-border-radius:25px;			
+	-fx-pref-width:150.0;
+	-fx-min-height:40;
+					
+	
+}
+#addbtn:hover {
+	-fx-background-color: #0e8c7b; 
+	-fx-cursor: hand;
+	
+					
+	
+}
+

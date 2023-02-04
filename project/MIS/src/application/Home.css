@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+
+#home{
+	
+	-fx-background-color: linear-gradient(to top,#333333 85%, rgba(255,255,255,1) 85%);
+}
+#div1{
+   
+    -fx-pref-width:2000;
+}
+
+
+#text1{
+   
+    	-fx-font:normal normal normal 40px 'Bebas Neue';
+	-fx-fill:#11ac9c;
+
+}
+/*04CFBA */
+
+
+
+
+
+
+.table-view {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header-background .filler {
+    -fx-background-color: transparent;
+}
+
+.table-view .corner {
+    -fx-background-color: transparent;
+}
+
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+    -fx-font-size: 15px;
+}
+
+.table-view .column-header-background{
+    -fx-background-color: #11ac9c;
+    -fx-background-radius: 7px 7px 0px 0px;
+    -fx-background-insets: 0 11px 0 0;
+    -fx-padding:15px 0 15px 0;
+     -fx-text-background-color: white;
+}
+
+
+.table-view .table-cell{
+    -fx-border-color: transparent;
+    -fx-padding: 20 0 2 55px;
+    
+}
+
+.table-row-cell:odd{
+	-fx-font-size: 15px;
+	
+    -fx-background-color:#414545;
+    -fx-background-insets: 0, 0 0 1 0;
+    
+    -fx-text-background-color: white;
+}
+.table-row-cell:even{
+	-fx-font-size: 15px;
+    -fx-background-color: white;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+     
+}
+.table-row-cell:odd:hover {
+    -fx-background-color: #393b3b;
+    -fx-text-background-color: #11ac9c;
+    -fx-cursor:hand;
+}
+
+.table-row-cell:even:hover {
+    -fx-background-color: #f5f5f5;
+    -fx-text-background-color: #11ac9c;
+    
+    -fx-cursor:hand;
+}
+
+
+
+.table-view .virtual-flow .scroll-bar:vertical,
+.table-view .virtual-flow .scroll-bar:vertical .track,
+.table-view .virtual-flow .scroll-bar:vertical .track-background,
+.table-view .virtual-flow .scroll-bar:horizontal,
+.table-view .virtual-flow .scroll-bar:horizontal .track,
+.table-view .virtual-flow .scroll-bar:horizontal .track-background {
+    -fx-background-color: transparent;
+}
+
+
+.table-view .virtual-flow .scroll-bar .increment-button,
+.table-view .virtual-flow .scroll-bar .decrement-button {
+    -fx-opacity: 0;
+    -fx-padding: 2;
+}
+
+.table-view .virtual-flow .scroll-bar:vertical .thumb{
+    -fx-background-color:  linear-gradient(to bottom, #26ffe9, #11ac9c);
+}
+.table-view .virtual-flow .scroll-bar:horizontal .thumb {
+    -fx-background-color:  linear-gradient(to right, #11ac9c, #26ffe9);
+}
+
+.table-row-cell:even:selected{
+	-fx-text-background-color: black;
+    
+}
+
+#lb{
+	-fx-font:normal normal normal 20px 'Bebas Neue';
+	-fx-fill:white;
+	
+}
+
+.text-field{
+	-fx-background-color: #eeeeee;
+	-fx-border-color:#dddddd; 
+	-fx-pref-height:35;
+	-fx-background-radius:25px;
+	-fx-border-radius:25px;
+	 -fx-prompt-text-fill: black;	
+}
+
+.button{
+	-fx-background-color:#11ac9c; 
+	-fx-text-fill:white; 
+	-fx-font:normal normal 20px 'sans-serif';
+	-fx-background-radius:5px;
+	-fx-border-radius:5px;			
+	
+}
+.button:hover{
+	-fx-cursor:hand  ;
+}
+
+
+#hidden{
+	visibility:hidden ;
+}
+ 
+#visible{
+	visibility:visible  ;
+}
+
